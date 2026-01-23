@@ -1,0 +1,19 @@
+# --- Core Logic & AI ---
+langchain==0.1.0
+langchain-google-genai==0.0.5
+langchain-community==0.0.10
+
+# --- Data Ingestion (The Readers) ---
+pandas==2.2.0
+openpyxl==3.1.2       # Required for reading Excel (.xlsx) files
+pdfplumber==0.10.3    # Best for extracting text from PDFs
+
+# --- Output Generation (The Creators) ---
+python-pptx==0.6.23   # For creating the slides
+python-docx==1.1.0    # For creating the Citation Word Doc
+
+# --- Web Search (Public Data) ---
+duckduckgo-search==4.2 # Free search tool (saves budget)
+
+# --- Utilities ---
+python-dotenv==1.0.1  # For managing your API keys safely

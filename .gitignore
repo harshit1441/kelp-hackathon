@@ -1,0 +1,16 @@
+# Ignore Environment Variables
+.env
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore Data Folders (Don't upload 100MB of PDFs)
+data/input/*
+data/output/*
+!data/input/.gitkeep  # Keeps the folder structure even if empty
+!data/output/.gitkeep
+
+# Ignore System Files
+.DS_Store
+venv/
